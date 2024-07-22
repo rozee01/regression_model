@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Read the Excel's data in pandas DataFrame 
-df = pd.read_excel('TutorialCigarette.xlsx')
+df = pd.read_excel('CigaretteData.xlsx')
 # Transform the columns to numeric
 df = df.apply(pd.to_numeric, errors='coerce')
 # Select the columns corresponding to the variables x(1), x(2) and x(3)
